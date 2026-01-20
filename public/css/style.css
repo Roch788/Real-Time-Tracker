@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+#locateBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+
+  padding: 10px 14px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#locateBtn:hover {
+  background: #0056b3;
+}
+
+#followBtn {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  z-index: 1000;
+
+  padding: 10px 14px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#followBtn.off {
+  background: #dc3545;
+}
